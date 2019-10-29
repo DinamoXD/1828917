@@ -25,11 +25,15 @@ public class Senasalud {
         eda=edad.nextInt();
         
        
-        
+         String colo;
+        Scanner color = new Scanner (System.in);
+        System.out.println("Digite su color favorito");
+        colo=color.next();
         
         System.out.println("su nombre es:" + nom);
-        System.out.println("Su apellido es:" + eda);
-        System.out.println("Su edad es:" + ape);
+        System.out.println("Su apellido es:" + ape);
+        System.out.println("Su edad es:" + eda);
+        System.out.println("Su color favorito es:" + colo);
       
     }
     
